@@ -1,69 +1,83 @@
 public class Pessoa {
 
-        private String nome;
-        private int idade;
-        private String telefone;
-        private char sexo;
-        private String email;
-        private String endereco;
-        private String rg;
-        private String cpf;
+    private String nome;
+    private int idade;
+    private String telefone;
+    private char sexo;
+    private String email;
+    private String endereco;
+    private String rg;
+    private String cpf;
+
+//construtor
+	
+	public Pessoa(String umNome){
+		nome = umNome;
+	}
+	
+	public Pessoa(String unNome, String umTelefone){
+		nome = umNome;
+		telefone = umTelefone;
+	}
+
+
+
 
 //métodos
 
-        public void setNome(String umNome){
-                nome = umNome;
+    public void setNome(String umNome){
+            nome = umNome;
 
-        }
+    }
 
-		public String getNome(){
-			return nome;
-		}
+	public String getNome(){
+		return nome;
+	}
 
-        public void setIdade(int umaIdade){
-                idade = umaIdade;
+    public void setIdade(int umaIdade){
+            idade = umaIdade;
 
-        }
-	
-		public String getIdade(){
-			return idade;
-		}
+    }
+
+	public int getIdade(){
+		return idade;
+	}
 	
 	public void setTelefone(String umTelefone){
 		telefone = umTelefone;
 
 	}
 
-		public String getTelefone(){
-			return telefone;
-		}
+	public String getTelefone(){
+		return telefone;
+	}
 
-	public void setSexo(String umSexo){
+	public void setSexo(char umSexo){
 		sexo = umSexo;
 
 	}
 
-		public char getSexo(){
-			return sexo;
-		}	
+	public char getSexo(){
+		return sexo;
+	}	
 
 	public void setEmail(String umEmail){
 		email = umEmail;
 
 	}	
 
-		public String getEmail(){
-			return email;
-		}
+	public String getEmail(){
+		return email;
+	}
 
 	public void setEndereco(String umEndereco){
 		endereco = umEndereco;
 
 	}
 
-		public String getEndereco(){
-			return endereco;
-		}
+	public String getEndereco(){
+		return endereco;
+	}
 
 	public void setRg(String umRG){
 		rg = umRG;
@@ -79,8 +93,9 @@ public class Pessoa {
 
 	}
 
-		public String getCpf(){
-			return cpf;
-		}
-}
+	public String getCpf(){
+		return cpf;
+	}
 
+}
+		
