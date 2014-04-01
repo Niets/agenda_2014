@@ -23,9 +23,11 @@ public class CadastroPessoa {
         System.out.println("Digite o telefone da Pessoa:");
         entradaTeclado = leitorEntrada.readLine();
         String umTelefone = entradaTeclado;
-        umaPessoa.setTelefone(umTelefone);      
+        umaPessoa.setTelefone(umTelefone);
         
-        umControle.adicionar(umaPessoa);
+        String mensagem = umControle.adicionar(umaPessoa);      
+        System.out.println("Pessoa cadastrada com sucesso");
+        
     
     }
 
