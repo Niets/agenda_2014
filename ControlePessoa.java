@@ -10,7 +10,7 @@ public class ControlePessoa{
 	}
 
 	public ArrayList<Pessoa> getListaPessoas() {
-		return listaPessoa; 
+		return listaPessoas; 
 	}
 	
 	public void adicionar(String umNome) {
