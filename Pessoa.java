@@ -15,7 +15,7 @@ public class Pessoa {
 		nome = umNome;
 	}
 	
-	public Pessoa(String unNome, String umTelefone){
+	public Pessoa(String umNome, String umTelefone){
 		nome = umNome;
 		telefone = umTelefone;
 	}
