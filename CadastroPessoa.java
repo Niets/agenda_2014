@@ -8,7 +8,7 @@ public class CadastroPessoa {
         InputStream entradaSistema = System.in;
         InputStreamReader leitor = new InputStreamReader(entradaSistema);
         BufferedReader leitorEntrada = new BufferedReader(leitor);
-        String entradaTeclado = leitorEntrada.readLine();
+        String entradaTeclado;
         
         //Criação dos objetos do sistema
         ControlePessoa umControle = new ControlePessoa();
