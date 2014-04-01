@@ -2,7 +2,7 @@ import java.io.*;
 
 public class CadastroPessoa {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         
         //Iniciando leitor
         InputStream entradaSistema = System.in;
