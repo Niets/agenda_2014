@@ -10,6 +10,10 @@ public class Pessoa {
     private String cpf;
 
 //construtor
+
+	public Pessoa(){
+		
+	}
 	
 	public Pessoa(String umNome){
 		nome = umNome;
